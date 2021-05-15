@@ -23,4 +23,4 @@ model = DecisionTreeClassifier()
 model.fit(X,y)
 
 predictions = model.predict([[age, gender]])
-print("Do you like ", predictions[0])
+print(f"Do you like {predictions[0]}")
